@@ -1,7 +1,7 @@
 # Site settings
-title: "Waste's personal page"
+title: "Waste's space"
 author:
   name: Tiuna Angelini
   email: tiuna.angelini@gmail.com
 description: "A personal blog for posting stuff"
-theme: jekyll-theme-architect
+theme: jekyll-theme-minima
