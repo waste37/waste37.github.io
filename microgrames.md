@@ -41,25 +41,25 @@ The basic idea is that of making games that are:
 
 ### Types
 To keep things concise and readable, I use abbreviated type definitions throughout the codebase:
-    ```c
-    typedef int8_t i8;
-    typedef int16_t i16;
-    typedef int32_t i32;
-    typedef int64_t i64;
-    typedef uint8_t u8;
-    typedef char16_t c16;
-    typedef uint16_t u16;
-    typedef uint32_t u32;
-    typedef uint64_t u64;
-    typedef float f32;
-    typedef double f64;
-    typedef char byte;
-    typedef ptrdiff_t isize;
-    typedef uintptr_t uptr;
-    typedef intptr_t  iptr;
-    typedef size_t usize;
-    typedef int32_t b32;
-    ```
+```c
+typedef int8_t i8;
+typedef int16_t i16;
+typedef int32_t i32;
+typedef int64_t i64;
+typedef uint8_t u8;
+typedef char16_t c16;
+typedef uint16_t u16;
+typedef uint32_t u32;
+typedef uint64_t u64;
+typedef float f32;
+typedef double f64;
+typedef char byte;
+typedef ptrdiff_t isize;
+typedef uintptr_t uptr;
+typedef intptr_t  iptr;
+typedef size_t usize;
+typedef int32_t b32;
+```
 When expressing sizes the chosen type should always be signed, for many reasons, the main one being the weird behaviours of unsigned arithmetic.
 
 ### Const correctness
